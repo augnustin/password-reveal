@@ -4,8 +4,5 @@
     },
     "showLabel": {
         "message": "Reveal password"
-    },
-    "hideLabel": {
-        "message": "Hide password"
     }
 }

@@ -1,5 +1,4 @@
 const CONTEXT_MENU_ID = 'password-reveal';
-let isHidden = true;
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({

@@ -4,8 +4,5 @@
     },
     "showLabel": {
         "message": "Afficher le mot de passe"
-    },
-    "hideLabel": {
-        "message": "Masquer le mot de passe"
     }
 }
