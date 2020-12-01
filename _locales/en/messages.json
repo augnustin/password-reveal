@@ -1,0 +1,11 @@
+{
+    "extension_description": {
+        "message": "Right click to change a password input into a text to reveal the password."
+    },
+    "showLabel": {
+        "message": "Reveal password"
+    },
+    "hideLabel": {
+        "message": "Hide password"
+    }
+}

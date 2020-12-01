@@ -1,0 +1,11 @@
+{
+    "extension_description": {
+        "message": "Un simple clic droit pour transformer un champs mot de passe en texte pour voir le mot de passe sauvegardé."
+    },
+    "showLabel": {
+        "message": "Afficher le mot de passe"
+    },
+    "hideLabel": {
+        "message": "Masquer le mot de passe"
+    }
+}

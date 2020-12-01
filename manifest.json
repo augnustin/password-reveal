@@ -1,0 +1,27 @@
+{
+    "name": "Reveal Password",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "default_locale": "en",
+    "description": "__MSG_extension_description__",
+    "content_scripts": [{
+            "all_frames": true,
+            "js": ["password-reveal.js"],
+            "matches": ["http://*/*", "https://*/*"],
+            "run_at": "document_end"
+        }],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "128": "images/icon.png",
+        "64": "images/icon.png",
+        "32": "images/icon32.png",
+        "16": "images/icon32.png"
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ]
+}
